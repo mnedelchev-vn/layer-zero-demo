@@ -21,6 +21,6 @@ Inside the bridging part method `bridgeTokens` has the receiver of the tokens as
 >   GOERLI_NODE=XYZ
 >   SEPOLIA_NODE=XYZ
 > ```
-> - *PRIVATE_KEY_OWNER - the private key used to deploy the contracts. Make sure that you've enough ETH funds on both Goerli and Sepolia chains. *
+> - *PRIVATE_KEY_OWNER - the private key used to deploy the contracts. Make sure that you've enough ETH funds on both Goerli and Sepolia chains.*
 > - *GOERLI_NODE - Goerli testnet chain RPC URL.*
 > - *SEPOLIA_NODE - Sepolia testnet chain RPC URL.*
