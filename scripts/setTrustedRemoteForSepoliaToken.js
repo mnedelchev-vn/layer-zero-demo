@@ -9,8 +9,8 @@ const { expect } = require("chai");
 const { config } = require("./config");
 
 async function main() {
-    const GoerliTokenAddress = '0x1b0BA6384FC8B9C774454a1c26d28252A8d8708F';
-    const SepoliaTokenAddress = '0x69Ca85B124b52ddcdE416541AF09ef1170E5Efa0';
+    const GoerliTokenAddress = '';
+    const SepoliaTokenAddress = '';
     if (!ethers.isAddress(GoerliTokenAddress) || !ethers.isAddress(GoerliTokenAddress)) {
         console.log('Invalid params');
         return false;

@@ -12,7 +12,7 @@ const { config } = require("./config");
 async function main() {
     const abiCoder = ethers.AbiCoder.defaultAbiCoder();
     const [owner] = await ethers.getSigners();
-    const GoerliTokenAddress = '0x1b0BA6384FC8B9C774454a1c26d28252A8d8708F';
+    const GoerliTokenAddress = '';
     if (!ethers.isAddress(GoerliTokenAddress)) {
         console.log('Invalid params');
         return false;

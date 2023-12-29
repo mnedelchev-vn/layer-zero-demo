@@ -12,7 +12,7 @@ const { config } = require("./config");
 async function main() {
     const abiCoder = ethers.AbiCoder.defaultAbiCoder();
     const [owner] = await ethers.getSigners();
-    const SepoliaTokenAddress = '0x69Ca85B124b52ddcdE416541AF09ef1170E5Efa0';
+    const SepoliaTokenAddress = '';
     if (!ethers.isAddress(SepoliaTokenAddress)) {
         console.log('Invalid params');
         return false;
